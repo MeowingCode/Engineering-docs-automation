@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<file name = "Спецификация">
+	<header>
+		<replace mark = "ДЕЦИМАЛЬНЫЙ_НОМЕР">ИБПА.436444.012ПЭ3</replace>
+		<replace mark = "ИМЯ_ИЗДЕЛИЯ">Плата термостата</replace>
+		<replace mark = "РАЗРАБОТАЛ">Шалумов А.С</replace>
+		<replace mark = "ПРОВЕРИЛ">Шалумова Н.А.</replace>
+		<replace mark = "Н_КОНТРОЛЬ"></replace>
+		<replace mark = "УТВЕРДИЛ"></replace>
+	</header>
+	<body>
+        <table mode="fill" table_in_file="1">
+            <!-- <title><cell> </cell><cell> </cell><cell> </cell><cell> </cell><cell> </cell><cell> </cell><cell> </cell></title> -->
+            <row><cell>Устройства</cell></row>
+            <row><cell>ИБПА.671312.011, Трансформатор</cell><cell>1</cell><cell>A1</cell></row>
+            <row><cell>Конденсаторы</cell></row>
+            <row><cell>К10-79-500 В-180 пФ +_ 5% МП0</cell><cell>2</cell><cell>C1, C103</cell></row>
+            <row><cell>К10-79-500 В-51 пФ +/-5%-МП0</cell><cell>11</cell><cell>C2, C5, C11, C15, C17, C26, C34, C71, C73, C14, C24</cell></row>
+            <row><cell>К10-79-25В-0.022 мкФ +/-20%-Н30cell</cell><cell>12</cell><cell>C3, C22, C27, C38, C39, C44, C47, C61, C91, C93, C94, C98</cell></row>
+            <row><cell>К10-79-25 В-0,1 мкФ+80%-20%-Н90</cell><cell>23</cell><cell>C4, C7, C10, C29, C42, C52, C53, C56, C59, C63, C64, C66-C69, C74-C77, C79, C90, C96, C97</cell></row>
+            <row><cell>ОСМ К53-56А-20 В-10 мкФ+/-20%-В</cell><cell>13</cell><cell>C6, C13, C23, C32, C33, C41, C46, C49, C54, C55, C78, C88, C102</cell></row>
+            <row><cell>К10-79-500 В-25 пФ+/-5%-МП0</cell><cell>1</cell><cell>C8</cell></row>
+            <row><cell>К10-79-25 В-0,1 мкФ+/-20%-Н30</cell><cell>5</cell><cell>C9, C16, C21, C35, C48</cell></row>
+            <row><cell>К10-79-500 В-5.1 пФ +/-5%-МП0</cell><cell>3</cell><cell>C12, C18, C36</cell></row>
+            <row><cell>К10-79-25 В-2,2мкФ +80%-20%-Н90</cell><cell>2</cell><cell>C19, C45</cell></row>
+            <row><cell>К10-79В-500 В-25 пФ+/-5%-МП0</cell><cell>2</cell><cell>C20, C31</cell></row>
+            <row><cell>К10-79-100 В-390пФ +/-5%-МП0</cell><cell>1</cell><cell>C25</cell></row>
+            <row><cell>К10-79-16 В-2200пФ +/-5%-МП0</cell><cell>4</cell><cell>C28, C50, C37, C60</cell></row>
+            <row><cell>К10-79В-50 В-1000пФ +/-5%-МП0</cell><cell>6</cell><cell>C30, C89, C95, C99-C101</cell></row>
+            <row><cell>К10-79-100 В-270пФ +/-5%-МП0</cell><cell>7</cell><cell>C40, C43, C51, C57, C62, C70, C72</cell></row>
+            <row><cell>К10-79-10 В-0,033мкФ+/-20%-Н30</cell><cell>2</cell><cell>C58, C65</cell></row>
+            <row><cell>К10-79В-25В-0,33мкФ+/-20%-Н30</cell><cell>2</cell><cell>C80, C86</cell></row>
+            <row><cell>К10-79-250 В-0,033мкФ+/-20%-Н30</cell><cell>5</cell><cell>C81-C84, C87</cell></row>
+            <row><cell>К10-79В-100 В-510пФ+/-5%-МП0</cell><cell>1</cell><cell>C85</cell></row>
+            <row><cell>К10-17В-Н20-0.01мкФ +/-10% -2</cell><cell>1</cell><cell>C92</cell></row>
+            <row><cell>К10-79-500 В-91пФ+/-5%-МП0</cell><cell>1</cell><cell>C104</cell></row>
+
+        </table>
+    </body>
+</file> 

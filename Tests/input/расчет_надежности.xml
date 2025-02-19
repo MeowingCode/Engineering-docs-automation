@@ -1,0 +1,166 @@
+<?xml version="1.0"?>
+<file name = "Tests/output/Расчет_надежности">
+	<header>
+		<replace mark = "ДЕЦИМАЛЬНЫЙ_НОМЕР">НКГД.441467.654-400</replace>
+		<replace mark = "ИМЯ_ИЗДЕЛИЯ">Прожектор ССД600-Л4</replace>
+		<replace mark = "РАЗРАБОТАЛ">Шалумов А.С</replace>
+		<replace mark = "ПРОВЕРИЛ">Шалумова Н.А.</replace>
+		<replace mark = "Н_КОНТРОЛЬ"></replace>
+		<replace mark = "УТВЕРДИЛ"></replace>
+		<replace mark = "ИНТ_ОТК_ИТОГ">3988.1527</replace> 
+		<replace mark = "ВР_БЕЗОТК_РАБОТЫ_ИТОГ">0.9803</replace> 
+		<replace mark = "СРОК_СЛУЖБЫ_ИТОГ">626.3093</replace> 
+		<replace mark = "ПОЛН_НАЗНАЧ_РЕСУРС_ИТОГ">250743</replace> 
+
+	</header>
+	<body>
+		<p><b>3.1 Узел "НКГД.306559.528 Модуль светодиодный ССД600"</b></p>
+		<textblock mark="ПОКАЗАТЕЛИ">
+			<replace mark = "ИНТ_ОТК">1234.5678</replace> 
+			<replace mark = "ВР_БЕЗОТК_РАБОТЫ">0.987</replace> 
+			<replace mark = "СРОК_СЛУЖБЫ">750.1234</replace> 
+			<replace mark = "ПОЛН_НАЗНАЧ_РЕСУРС">2000000</replace> 
+		</textblock>
+		<p alignment = "right" font_size = "12">Таблица 3.1. (Импортные) Конденсаторы</p>
+		<table mode="sample" table_in_file="ТАБ1">
+		<row>
+			<cell>(Импортные) Конденсаторы керамические постоянной емкости общего применения (CK, CKR)</cell>
+		</row>
+		<row>
+			<cell>C1</cell>
+			<cell>C2012X7R2A104 (SMD0805 X7R 0,1 мкФ 100 В)</cell>
+			<cell>1.05</cell>
+			<cell>3.5000</cell>
+			<cell>10</cell>
+			<cell>60.0000</cell>
+		</row>
+		<row>
+			<cell>C2</cell>
+			<cell>C1608X7R1H224 (SMD0603 X7R 0,22 мкФ 50 В)</cell>
+			<cell>1.05</cell>
+			<cell>4.0000</cell>
+			<cell>10</cell>
+			<cell>70.0000</cell>
+		</row>
+		<row>
+			<cell>C3</cell>
+			<cell>C1608X7R1H474 (SMD0603 X7R 0,47 мкФ 50 В)</cell>
+			<cell>1.05</cell>
+			<cell>4.5000</cell>
+			<cell>10</cell>
+			<cell>75.0000</cell>
+		</row>
+		<row>
+			<cell>C4</cell>
+			<cell>C1608X7R1H105 (SMD0603 X7R 1 мкФ 50 В)</cell>
+			<cell>1.05</cell>
+			<cell>5.0000</cell>
+			<cell>10</cell>
+			<cell>80.0000</cell>
+		</row>
+		</table>
+
+		<p alignment = "right" font_size = "12">Таблица 3.2. (Импортные) Интегральные микросхемы</p>
+		<table mode="sample" table_in_file="ТАБ3">
+		<row>
+			<cell>(Импортные) Логические схемы, программируемые логические матрицы, микросхемы памяти, микропроцессоры</cell>
+		</row>
+		<row>
+			<cell>D1</cell>
+			<cell>LM35CIM5-SHA</cell>
+			<cell>1200</cell>
+			<cell>25.0000</cell>
+			<cell>2</cell>
+			<cell>5</cell>
+			<cell>15.0000</cell>
+		</row>
+		<row>
+			<cell>D4</cell>
+			<cell>LM35CIM5-VHA</cell>
+			<cell>1200</cell>
+			<cell>25.0000</cell>
+			<cell>2</cell>
+			<cell>5</cell>
+			<cell>15.0000</cell>
+		</row>
+		<row>
+			<cell>(Импортные) Полупроводниковые аналоговые</cell>
+		</row>
+		<row>
+			<cell>D2</cell>
+			<cell>FODM8802C</cell>
+			<cell>1200</cell>
+			<cell>8.5000</cell>
+			<cell>2</cell>
+			<cell>5</cell>
+			<cell>6.0000</cell>
+		</row>
+		<row>
+			<cell>D3</cell>
+			<cell>FODM8802C</cell>
+			<cell>1200</cell>
+			<cell>8.5000</cell>
+			<cell>2</cell>
+			<cell>5</cell>
+			<cell>6.0000</cell>
+		</row>
+		<row>
+			<cell>D5</cell>
+			<cell>MCP6002T-E/OT</cell>
+			<cell>1500</cell>
+			<cell>5.2000</cell>
+			<cell>2</cell>
+			<cell>5</cell>
+			<cell>4.5000</cell>
+		</row>
+		</table>
+
+		<p alignment = "right" font_size = "12">Таблица 3.3. (Импортные) Резисторы</p>
+		<table mode="sample" table_in_file="ТАБ2">
+		<row>
+			<cell>(Импортные) Резисторы постоянные пленочные бескорпусные (Chip, RM)</cell>
+		</row>  
+		<row>
+			<cell>R2</cell>
+			<cell>RC1206FR-072K7L (SMD1206 2,7 кОм ±1% 250 мВт)</cell>
+			<cell>8.00</cell>
+			<cell>1.5000</cell>
+			<cell>15</cell>
+			<cell>200.0000</cell>
+		</row>
+		<row>
+			<cell>R4</cell>
+			<cell>RC0603FR-071K5L (SMD0603 1,5 кОм ±1% 100 мВт)</cell>
+			<cell>8.00</cell>
+			<cell>1.5000</cell>
+			<cell>15</cell>
+			<cell>110.0000</cell>
+		</row>
+		<row>
+			<cell>R5</cell>
+			<cell>RC0603FR-0710KL (SMD0603 10 кОм ±1% 100 мВт)</cell>
+			<cell>8.00</cell>
+			<cell>1.5000</cell>
+			<cell>15</cell>
+			<cell>105.0000</cell>
+		</row>
+		<row>
+			<cell>R6</cell>
+			<cell>RC0603FR-071K5L (SMD0603 1,5 кОм ±1% 100 мВт)</cell>
+			<cell>8.00</cell>
+			<cell>1.5000</cell>
+			<cell >15</cell>
+			<cell>110.0000</cell>
+		</row>
+		<row>
+			<cell>R7</cell>
+			<cell>RC0603FR-071K2L (SMD0603 2,2 кОм ±1% 100 мВт)</cell>
+			<cell>8.00</cell>
+			<cell>1.5000</cell>
+			<cell>15</cell>
+			<cell>115.0000</cell>
+		</row>
+		</table>
+
+	</body>
+</file>

@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<file name = "Tests/output/тестирование_таблиц">
+	<header>
+		<sample_path>bmstu_sample</sample_path>
+		<replace mark = "НОМЕР_ЛР">1</replace>
+		<replace mark = "НАЗВАНИЕ_ДИСЦИПЛИНЫ">Технология разработки программных систем</replace>
+		<replace mark = "НАЗВАНИЕ_ЛР">Тестирование таблиц</replace>
+	</header>
+	<body>
+        <insertafter mark = 'Выполнение работы'>
+            <p headline_level='1'>Заполнение таблицы</p>
+        </insertafter>
+        <table mode = 'fill' table_in_file = '1'>
+            <row> 
+                <cell>Текст 1</cell>
+                <cell>Текст 2</cell>
+                <cell>Текст 3</cell>
+                <cell>Текст 4</cell>
+                <cell>Текст 5</cell>
+            </row>
+        </table>
+        <p headline_level='1'>Создание таблицы</p>
+        <table>
+            <title>
+                <row> 
+                    <cell>Создание таблицы</cell>
+                </row> 
+                <row> 
+                    <cell>Заголовок 1</cell>
+                    <cell>Заголовок 2</cell>
+                    <cell>Заголовок 3</cell>
+                    <cell>Заголовок 4</cell>
+                    <cell>Заголовок 5</cell>
+                </row> 
+            </title>
+            <row_sample>
+                <row> 
+                    <cell></cell>
+                    <cell></cell>
+                    <gluing direction = 'left'/>
+                    <cell></cell>
+                    <cell></cell>
+                </row> 
+                <row> 
+                    <gluing direction = 'up'/>
+                    <cell></cell>
+                    <gluing direction = 'left'/>
+                    <cell></cell>
+                    <cell></cell>
+                </row>
+            </row_sample> 
+            <row>
+                <cell>Строка 1</cell>
+                <cell>Подстрока 1</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+                <cell>Подстрока 2</cell>
+                <cell>3</cell>
+                <cell>4</cell>
+            </row>
+            <row>
+                <cell>Строка 2</cell>
+                <cell>Подстрока 1</cell>
+                <cell>5</cell>
+                <cell>6</cell>
+                <cell>Подстрока 2</cell>
+                <cell>7</cell>
+                <cell>8</cell>
+            </row>
+            <row>
+                <cell>Строка 3</cell>
+                <cell>Подстрока 1</cell>
+                <cell>9</cell>
+                <cell>10</cell>
+                <cell>Подстрока 2</cell>
+                <cell>11</cell>
+                <cell>12</cell>
+            </row>
+            <footer>
+                <row> 
+                    <cell>Дополнительный текст</cell>
+                </row> 
+            </footer>
+        </table>
+	</body>
+</file>

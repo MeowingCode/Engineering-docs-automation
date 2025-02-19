@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<file name = "Tests/output/simple_test">
+	<header>
+	</header>
+	<body>
+        <p font_size='16'>Тесты таблиц</p>
+        <table>
+            <title>
+                <row> 
+                    <cell>Создание таблицы</cell>
+                </row> 
+                <row> 
+                    <cell>Заголовок 1</cell>
+                    <cell>Заголовок 2</cell>
+                    <cell>Заголовок 3</cell>
+                    <cell>Заголовок 4</cell>
+                    <cell>Заголовок 5</cell>
+                </row> 
+            </title>
+            <row>
+                <cell>1</cell>
+                <gluing direction = 'left'/>
+                <cell> </cell>
+                <cell> </cell>
+                <cell> </cell>
+            </row>
+            <row>
+                <gluing direction = 'up'/>
+                <gluing direction = 'left'/>
+                <cell>5</cell>
+                <cell>6</cell>
+                <cell>Подстрока 2</cell>
+            </row>
+            <row>
+                <cell>Строка 3</cell>
+                <cell>Подстрока 1</cell>
+                <cell>9</cell>
+                <cell>10</cell>
+                <cell>Подстрока 2</cell>
+            </row>
+            <footer>
+                <row> 
+                    <cell>Дополнительный текст</cell>
+                </row> 
+            </footer>
+        </table>
+	</body>
+</file>

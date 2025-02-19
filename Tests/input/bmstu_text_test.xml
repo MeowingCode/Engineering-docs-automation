@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<file name = "Tests/output/тестирование_текста">
+	<header>
+		<sample_path>bmstu_sample</sample_path>
+		<replace mark = "НОМЕР_ЛР">2</replace>
+		<replace mark = "НАЗВАНИЕ_ДИСЦИПЛИНЫ">Технология разработки программных систем</replace>
+		<replace mark = "НАЗВАНИЕ_ЛР">Тестирование текста</replace>
+	</header>
+	<body>
+        <table mode = 'delete' table_in_file = '1'></table>
+        <p font_size = '14'>Программная система может записывать в документ <b>жирный шрифт</b>, <i>курсив</i>, <s>зачеркнутый</s> и <u>подчеркнутый</u> текст, а еще <sup>надстрочный</sup> и <sub>подстрочный</sub> текст</p> 
+        <p font_size = '14'><b>Теги могут <i>комбинироваться</i></b></p>
+        <p font_size = '12'>Текст</p>
+        <p font_size = '14'>Может</p>
+        <p font_size = '16'>Быть</p>
+        <p font_size = '18'>Разного</p>
+        <p font_size = '20'>Размера</p>
+        <p font_size = '14' font_name='Arial'>А также </p>
+        <p font_size = '14' font_name='Calibri'>разного </p>
+        <p font_size = '14' font_name='Verdana'>шрифта</p>
+
+    </body>
+</file>

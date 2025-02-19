@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<file name = "Tests/output/Перечень_элементов">
+	<header>
+		<replace mark = "ДЕЦИМАЛЬНЫЙ_НОМЕР">ИБПА.436444.012ПЭ3</replace>
+		<replace mark = "ИМЯ_ИЗДЕЛИЯ">Плата термостата</replace>
+		<replace mark = "РАЗРАБОТАЛ">Шалумов А.С</replace>
+		<replace mark = "ПРОВЕРИЛ">Шалумова Н.А.</replace>
+		<replace mark = "Н_КОНТРОЛЬ"></replace>
+		<replace mark = "УТВЕРДИЛ"></replace>
+	</header>
+	<body>
+        <table mode="fill" table_in_file="1">
+            <row><cell>Конденсаторы</cell></row>
+            <row><cell>GRM: ЧИП-0603, ЧИП-1206, ф. Murata, Япония; Танталовые ЧИП-А: ф. AVX, США</cell></row>
+            <row><cell>C1</cell><cell>GRM1206-U2J-630В-2,2нФ±5%</cell><cell>1</cell></row>
+            <row><cell>C2</cell><cell>GRM0805-X7R-50В-1мкФ±10%</cell><cell>1</cell></row>	
+            <row><cell>C3, C5, C8-C14, C18, C19, C27-C29</cell><cell>GRM0603-X7R-50В-0,1мкФ±10%</cell><cell>14</cell></row>
+            <row><cell>C4</cell><cell>GRM0603-X7R-50В-1нФ±10%</cell><cell>1</cell></row>
+            <row><cell>C6</cell><cell>ЧИП-A-16В-10мкФ±20%</cell><cell>1</cell></row>
+            <row><cell>C7</cell><cell>К10-79-10В-10нФ±20% Н30 АЖЯР.673511.004 ТУ</cell><cell>1</cell><cell>*GRM0603-X7R-50В-10нФ±10%</cell></row>
+            <row><cell>C15</cell><cell>597D107X0035F2T, ф. Vishay, США</cell><cell>2</cell></row>
+            <row><cell>C17</cell><cell>EEFCX1E220R, ф. Panasonik, Япония</cell><cell>1</cell></row>
+            <row><cell>C20-C24</cell><cell>GRM1206-X7R-50В-1мкФ±10</cell><cell>5</cell></row>
+            <row><cell>C25, C26</cell><cell>GRM0603-X7R-50В-100пФ±10%</cell><cell>2</cell></row>
+            
+            <row><cell>Микросхемы</cell></row>	
+            <row><cell>DA1</cell><cell>AD820BRZ, ф. Analog Devices, США</cell><cell>1</cell><cell>AD822ARM</cell></row>
+            <row><cell>DA2</cell><cell>AD823ARZ, ф. Analog Devices, США</cell><cell>1</cell><cell>AD822ARM</cell></row>
+            <row><cell>DD1</cell><cell>L78L05ABUTR, ф. ST Microelectronics, США</cell><cell>1</cell><cell>LT3080EDD-1</cell></row>
+            <row><cell>DD2</cell><cell>STM32F051K6T6, ф. ST Microelectronics, США</cell><cell>1	</cell></row>
+            <row><cell>DD3</cell><cell>MAX13430EEUB+, ф. Maxim Integrated, США</cell><cell>1</cell><cell>ADM3485EAR</cell></row>
+            <row><cell>DD4</cell><cell>L78L33ABUTR, ф. ST Microelectronics, США</cell><cell>1</cell><cell>LT3080EDD-1</cell></row>
+            <row><cell>DD5</cell><cell>HEF4081BT, ф. NXP Semiconductors, Нидерланды</cell><cell>1</cell><cell>SN74LVC125APW</cell></row>
+
+            <row><cell> </cell></row>
+            <row><cell>F1</cell><cell>Предохранитель, MF-LSMF185/33X-2, ф. Bourns, США</cell><cell>1</cell></row>
+            <row><cell> </cell></row>		
+            <row><cell>K1</cell><cell>Реле, G3VM-601G1, ф. Omron, Япония</cell><cell>1</cell></row>	
+            <row><cell> </cell></row>
+            <row><cell>Катушки индуктивности</cell></row>		
+            <row><cell>L1</cell><cell>Чип индуктивность 0805-220мкГн±20%, ф. Vishay, США</cell><cell>1</cell></row>
+            <row><cell>L2</cell><cell>IHLP2020BZER100M11, ф. Vishay, США</cell><cell>1</cell></row>
+            <row><cell>L3</cell><cell>IHLP6767DZER220M11, ф. Vishay, США</cell><cell>1</cell></row>
+                        
+            <row><cell>Резисторы</cell></row>		
+            <row><cell>CR ЧИП ф. Bourns, США</cell></row>		
+            <row><cell>R1, R9</cell><cell>Р1-12-0,062-1МОм±5% АЛЯР.434110.005 ТУ</cell><cell>2</cell><cell>*CR-0603-1МОм±1%</cell></row>
+            <row><cell>R2, R4</cell><cell>Р1-12-0,062-330Ом±5% АЛЯР.434110.005 ТУ</cell><cell>2</cell><cell>*CR-0603-330Ом±1%</cell></row>
+            <row><cell>R3</cell><cell>Р1-12-0,125-100кОм±5% АЛЯР.434110.005 ТУ</cell><cell>1</cell><cell>*CR-0805-100кОм±1%</cell></row>
+            <row><cell>R5</cell><cell>Р1-12-0,062-200Ом±5% АЛЯР.434110.005 ТУ</cell><cell>1</cell><cell>*CR-0603-200Ом±1%</cell></row>
+            <row><cell>R6</cell><cell>Резистор 3223W-1-2МОм, ф. Bourns, США</cell><cell>1</cell></row>
+            <row><cell>R7</cell><cell>CR-0805-2,7МОм±1%</cell><cell>1</cell></row>	
+            <row><cell>R8</cell><cell>CR-0805-3,3МОм±1%</cell><cell>1</cell></row>	
+            <row><cell>R10</cell><cell>Р1-12-0,25-120Ом±5% АЛЯР.434110.005 ТУ</cell><cell>1</cell><cell>*CR-1206-120Ом±1%</cell></row>
+            <row><cell>R11</cell><cell>Р1-12-0,062-15кОм±5% АЛЯР.434110.005 ТУ</cell><cell>1</cell><cell>*CR-0603-15кОм±1%</cell></row>
+            <row><cell>R12</cell><cell>Р1-12-0,062-4,3кОм±5% АЛЯР.434110.005 ТУ</cell><cell>1</cell><cell>*CR-0603-4,3кОм±1%</cell></row>
+            <row><cell>R13</cell><cell>Р1-12-0,062-100кОм±5% АЛЯР.434110.005 ТУ</cell><cell>1</cell><cell>*CR-0603-100кОм±1%</cell></row>
+            <row><cell>R14, R19</cell><cell>Р1-12-0,062-20кОм±5% АЛЯР.434110.005 ТУ</cell><cell>2</cell><cell>*CR-0603-20кОм±1%</cell></row>
+            <row><cell>R15</cell><cell>Р1-12-0,062-2кОм±5% АЛЯР.434110.005 ТУ</cell><cell>1</cell><cell>*CR-0603-2кОм±1%</cell></row>
+            <row><cell>R16, R26, R31, R37</cell><cell>Р1-12-0,062-10кОм±5% АЛЯР.434110.005 ТУ</cell><cell>4</cell><cell>*CR-0603-10кОм±1%</cell></row>
+        
+        </table>
+    </body>
+</file> 
