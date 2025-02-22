@@ -3,15 +3,10 @@ import argparse
 from pathlib import Path
 
 def main():
-    # def_data_path = "Tests/input/расчет_надежности (1).xml"
-    # def_data_path = "произвол.xml"
-    # def_data_path = "спецификация.xml"
+
+    # значение по умолчанию
     def_data_path = "table_test.xml"
-
-
-    # def_mode = "Расчет надежности"
     def_mode = None 
-    # def_mode = "Спецификация"
 
     handler = argparse.ArgumentParser(description="Создание конструкторской документации")
     handler.add_argument('data_path', type=str, help='Путь к входному файлу.', default = def_data_path, nargs='?')
